@@ -1,4 +1,3 @@
-import Link from 'next/link';
 import styled, { keyframes } from 'styled-components';
 import Image from 'next/image';
 import ImgRender from '../../assets/images/img_render.png';

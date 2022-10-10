@@ -120,7 +120,6 @@ export default function Ref() {
               처리가 필요할 때)
             </li>
             <li>서드 파티 DOM 라이브러리를 React와 같이 사용할 때.</li>
-
             <li>(정리중)</li>
             <li>컴포넌트에서 특정 DOM을 선택할 때, useRef를 사용.</li>
             <li>
@@ -142,6 +141,14 @@ export default function Ref() {
               외부 라이브러리를 사용해야 할 때에도 특정 DOM 에다 적용하기 때문에 DOM 을 선택해야
               하는 상황이 발생 할 수 있음.
             </li>
+            <li>
+              포커스, 텍스트 선택영역, 혹은 미디어의 재생을 관리할 때.
+              <br />
+              애니메이션을 직접적으로 실행시킬 때.
+              <br />
+              서드 파티 DOM 라이브러리를 React와 같이 사용할 때.
+            </li>
+            <li>위 예시 3가지 케이스 샘플로 만들어볼 것.</li>
           </ul>
           <dl className="sample-box">
             <dt>예제</dt>

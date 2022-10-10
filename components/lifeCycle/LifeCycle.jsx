@@ -1,4 +1,3 @@
-import Link from 'next/link';
 import styled, { keyframes } from 'styled-components';
 import Image from 'next/image';
 import ImgLifeCycle from '../../assets/images/img_lifecycle.png';
@@ -78,20 +77,30 @@ export default function LifeCycle() {
             </span>
           </li>
           <li>
-            <span>
-              <em>Mounting (컴포넌트 생성)</em>
-            </span>
+            <h3>
+              <span>Mounting (컴포넌트 생성)</span>
+            </h3>
+            <dl>
+              <dt>
+                <span>1. constructor</span>
+              </dt>
+              <dd>
+                <span>
+                  &nbsp; &ndash; constructor 메소드는 컴포넌트가 초기화될 때 다른 어떤 메소드보다
+                  먼저 호출되며, state 와 다른 초기 값들을 세팅한다.
+                </span>
+              </dd>
+            </dl>
+            {/* <span>1. constructor</span>
             <br />
             <span>
-              1. constructor
-              <br />
               &nbsp; &ndash; constructor 메소드는 컴포넌트가 초기화될 때 다른 어떤 메소드보다 먼저
               호출되며, state 와 다른 초기 값들을 세팅한다.
-            </span>
+            </span> */}
+            <br />
+            <span>2. getDerivedStateFromProps</span>
             <br />
             <span>
-              2. getDerivedStateFromProps
-              <br />
               &nbsp; &ndash; getDerivedStateFromProps 메소드는 DOM에서 요소들이 랜더링 되기 직전에
               호출된다. <br />
               &nbsp; &ndash; 최초의 props 에 기반한 state 객체를 저장한다. state 를 인자로 받고,

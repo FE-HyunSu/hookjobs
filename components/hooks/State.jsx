@@ -108,7 +108,11 @@ export default function State() {
           </ul>
           <dl className="sample-box">
             <dt>예제</dt>
-            <dd>1 ~ 99 사이의 숫자를 useState로 랜덤하게 보여주는 state값 입니다.</dd>
+            <dd>* 초기 state 값은 0 입니다.</dd>
+            <dd>
+              * 아래 버튼 클릭 시 1 ~ 99 사이의 숫자를 useState를 통해 state값을 업데이트 하고
+              있습니다.
+            </dd>
             <dd>
               <button type="button" onClick={() => setSample(Math.floor(Math.random() * 100))}>
                 State 값 변경

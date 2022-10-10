@@ -153,21 +153,27 @@ export default function Effect() {
             <dt>선언</dt>
             <dd>
               <pre>
-                {`// 렌더링, 리렌더링이 될때마다 실행.`}
+                {`// `}
+                <strong>렌더링, 리렌더링</strong>
+                {`이 될때마다 실행.`}
                 <br />
                 {`useEffect(() => { `}
                 <strong>{`(실행함수)`}</strong>
                 {` });`}
               </pre>
               <pre>
-                {`// 최초 렌더링 시점에서 실행.`}
+                {`// `}
+                <strong>최초 렌더링</strong>
+                {` 시점에서 실행.`}
                 <br />
                 {`useEffect(() => { `}
                 <strong>{`(실행함수)`}</strong>
                 {` }, []);`}
               </pre>
               <pre>
-                {`// 특정 값이 업데이트 되는 시점에 실행.`}
+                {`// `}
+                <strong>의존성 배열에 있는 name 값</strong>
+                {`이 업데이트 되는 시점에 실행.`}
                 <br />
                 {`useEffect(() => { `}
                 <strong>{`(실행함수)`}</strong>
