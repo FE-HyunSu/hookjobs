@@ -1,23 +1,25 @@
-# 🥸 HOOKJOBS
+## 🥸 HOOKJOBS
 - 👨🏻‍💻 React 개인 스터디를 위해 만든 페이지 입니다. 🙂
 
-## 💻 URL
+### 🏂 URL 
 - [https://lustrous-dieffenbachia-6cdb15.netlify.app](https://lustrous-dieffenbachia-6cdb15.netlify.app)
 
-## 💡 Keyword
-`React`, `NextJS`, `javascript`, `styled-components`, `keyframe animation`
+### 🪬 내용
 
-## 👨‍🎨 Rendering
-- Browser Rendering
-- Virtual DOM
-- React LifeCycle
+  #### 🧳 Keyword
+  - `React` `NextJS` `javascript` `styled-components` `keyframe animation`
 
-## 🪡 Hooks
-- useState
-- useEffect
-- useRef
-- useMemo
-- useContext
-- useCallback
+  #### 👨‍🎨 Rendering
+  - Browser Rendering
+  - Virtual DOM
+  - React LifeCycle
 
-## 🪢 Redux
+  #### 🪡 Hooks
+  - useState
+  - useEffect
+  - useRef
+  - useMemo
+  - useContext
+  - useCallback
+
+  #### 🪢 Redux
